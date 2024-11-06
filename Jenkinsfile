@@ -24,7 +24,7 @@ pipeline {
             steps {
                 script {
                     // Run tests using unittest
-                    bat 'python test_calculator.py'
+                    bat 'python test_calci.py'
                 }
             }
         }
